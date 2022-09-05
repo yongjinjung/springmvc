@@ -6,11 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class ItemRepositoryTest {
 
-    ItemRepository itemRepository = new ItemRepository();
+    private final ItemRepository itemRepository = new ItemRepository();
 
     @AfterEach
     void afterEach(){
